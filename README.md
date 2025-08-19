@@ -1,5 +1,4 @@
 
-```markdown
 # 📊 Portfolio Tracker
 
 The **Portfolio Tracker** app allows users to track their shareholdings' performance and total portfolio value in real-time.  
@@ -60,7 +59,6 @@ This Minimum Viable Product (MVP) displays her portfolio and helps her make bett
 - [Express](https://expressjs.com/) – backend framework.  
 - [MongoDB](https://www.mongodb.com/) – database.  
 - [Node.js](https://nodejs.org/) – runtime environment.  
-- [Bootstrap](https://getbootstrap.com/) – styling.
 
 ---
 
@@ -68,7 +66,7 @@ This Minimum Viable Product (MVP) displays her portfolio and helps her make bett
 - **Frontend:** React, CSS, Bootstrap, HighCharts  
 - **Backend:** Node.js, Express, REST APIs  
 - **Database:** MongoDB  
-- **Languages:** JavaScript, HTML, CSS  
+- **Languages:** JavaScript, HTML, Tailwind CSS  
 
 ---
 
