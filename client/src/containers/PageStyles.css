@@ -1,0 +1,20 @@
+.portfoliocontainer {
+    flex: 5;
+    padding: 20px;
+    background-color: #ecf0f1; /* Light gray background to contrast with the dark sidebar */
+}
+
+.portfoliocontainer h2 {
+    color: #2c3e50; /* Dark blue-gray to match the header */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #bdc3c7; /* Subtle underline for the title */
+    font-weight: bold;
+}
+
+/* Adds a nice shadow and border to the tables on these pages */
+.portfoliocontainer .table {
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the border-radius is applied to the table corners */
+}

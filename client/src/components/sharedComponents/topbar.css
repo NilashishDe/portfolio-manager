@@ -1,0 +1,157 @@
+.topbar {
+    width: 100%;
+    height: 80px;
+    background-color: #19222c; /* Dark blue-gray background */
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+  
+.topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.topLeft {
+    padding-left: 10px; /* Added padding */
+}
+.logo {
+    font-weight: bold;
+    font-size: 30px;
+    color: #ecf0f1; /* Light gray for the logo */
+    cursor: pointer;
+}
+
+.indexItem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 14px;
+}
+
+.indexName {
+    font-weight: 600;
+    color: #bdc3c7; /* Lighter gray for index names */
+}
+
+.indexPrice {
+    font-size: 16px;
+    font-weight: bold;
+    color: #ecf0f1; /* Light gray for index prices */
+}
+
+.indexChangePositive {
+    color: #2ecc71; /* Brighter green */
+    font-size: 12px;
+}
+
+.indexChangeNegative {
+    color: #e74c3c; /* Brighter red */
+    font-size: 12px;
+}
+/* --- END: DARK THEME STYLES --- */
+  
+.topRight{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.topCenter {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.search-container {
+    position: relative;
+    width: 50%;
+    max-width: 400px;
+}
+
+/* --- START: SEARCH ICON STYLE --- */
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+    color: #c7dbdc; /* Gray icon color */
+    font-size: 16px;
+}
+/* --- END: SEARCH ICON STYLE --- */
+
+.search-input {
+    width: 100%;
+    padding: 10px 15px 10px 45px; /* Added left padding for the icon */
+    border-radius: 10px;
+    border: 1px solid #3f4a55;
+    background-color: #34495e; /* Darker gray for input */
+    color: #ecf0f1; /* Light text color */
+    font-size: 14px;
+    outline: none;
+}
+
+/* --- START: PLACEHOLDER STYLE --- */
+.search-input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #95a5a6; /* A lighter gray for better readability */
+  opacity: 1; /* Firefox */
+}
+
+.search-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #95a5a6;
+}
+
+.search-input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #95a5a6;
+}
+/* --- END: PLACEHOLDER STYLE --- */
+
+
+.search-input:focus {
+    border-color: #3498db; /* Blue focus color */
+}
+
+.search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #34495e; /* Match input background */
+    border: 1px solid #566573;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.search-result-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ecf0f1; /* Light text for results */
+}
+
+.search-result-item:hover {
+    background-color: #4a627a;
+}
+
+.result-symbol {
+    font-weight: bold;
+}
+
+.result-name {
+    font-size: 12px;
+    color: #bdc3c7; /* Lighter gray for company name */
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+}

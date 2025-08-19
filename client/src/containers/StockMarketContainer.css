@@ -1,0 +1,36 @@
+.stockmarket-container{
+    flex: 5;
+    padding: 20px;
+}
+.stockmarket-container h2 {
+    color: #2c3e50; /* Dark blue-gray to match the header */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #bdc3c7; /* Subtle underline for the title */
+    font-weight: bold;
+}
+.stockmarket-container .table {
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 8px;
+    overflow: hidden; /* Ensures the border-radius is applied to the table corners */
+}
+.stockmarket-container .stock-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between stock items */
+}
+.stockmarket-container .stock-item {        
+    flex: 1 1 calc(33.333% - 20px); /* Three items per row with space */
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff; /* White background for stock items */
+    transition: transform 0.2s ease;
+}
+.stockmarket-container .stock-item:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+}
+.stockmarket-container .stock-item h3 {
+    color: #2c3e50; /* Dark blue-gray for stock names */
+    margin-bottom: 10px;
+}  
