@@ -7,25 +7,6 @@ Real-time stock data comes from the **NASDAQ exchange** via [Financial Modeling 
 
 Built with the **MERN stack**: MongoDB, Express, React, Node.js.
 
----
-
-## 🎥 Video Demo and Screenshots
-
-Demo: [Watch on YouTube](https://youtu.be/f05D_Hy-H0Y)
-
-### Portfolio / Home Page
-![Screenshot of Portfolio page](images/PortfolioHomePage.png "Portfolio")
-
-![Stock Price History](images/ShareHistory.png "Stock Price History")
-![Add More Shares](images/AddMore.png "Add More Shares")
-![Remove Some Shares](images/Remove.png "Remove Some Shares")
-![Delete Shares](images/Delete.png "Delete Shares")
-
-### Discover Page
-![Discover Main Page](images/DiscoverMain.png "Discover Main Page")
-![Search Feature](images/Search.png "Search Feature")
-
----
 
 ## 📌 Project Brief
 A local trader came with a portfolio of shares and wanted to analyze it more effectively.  
