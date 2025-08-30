@@ -1,5 +1,5 @@
-const baseURL = 'http://localhost:5000/api/shares/';
-const ledgerURL = 'http://localhost:5000/api/ledger/';
+const baseURL = 'https://portfolio-manager-nu.vercel.app/api/shares/';
+const ledgerURL = 'https://portfolio-manager-nu.vercel.app/api/ledger/';
 
 export const getHeldShares = () => {
     return fetch(baseURL)
