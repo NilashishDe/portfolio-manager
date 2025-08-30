@@ -7,7 +7,7 @@ export const getCurrentStocks = () => {
     .then(res => res.json());
 };
 
-const SERVER_URL = 'http://localhost:5000';
+const SERVER_URL = 'https://portfolio-manager-nu.vercel.app';
 
 const watchlistURL = `${SERVER_URL}/api/watchlist/`;
 
